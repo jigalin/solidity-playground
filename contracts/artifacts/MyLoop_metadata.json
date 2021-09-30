@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myLoop",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyLoop.sol": "MyLoop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyLoop.sol": {
+			"keccak256": "0x33c217b70ff1ed5d1d9d781add83d822749687215cd267364bcd099710dc49a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73f61dcaf11cd87c1c7fa605667792d0c0b99b16cd5e88287e07d31d1342652e",
+				"dweb:/ipfs/QmRMie9PXRGVJxU9Wpme5btBfXRH4g4odAbHYftBQs9fp9"
+			]
+		}
+	},
+	"version": 1
+}

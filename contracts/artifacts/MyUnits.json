@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "608060405266b1a2bc2ec50000600055610e10600155348015602057600080fd5b50603f80602e6000396000f3fe6080604052600080fdfea2646970667358221220ccd1055a108fe18e02699b6f5de1402b09c81ba0c1b78c959d6efd4d0f00101564736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH7 0xB1A2BC2EC50000 PUSH1 0x0 SSTORE PUSH2 0xE10 PUSH1 0x1 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x20 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x2E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCC 0xD1 SDIV GAS LT DUP16 0xE1 DUP15 MUL PUSH10 0x9B6F5DE1402B09C81BA0 0xC1 0xB7 DUP13 SWAP6 SWAP14 PUSH15 0xFD4D0F00101564736F6C6343000807 STOP CALLER ",
+			"sourceMap": "60:280:0:-:0;;;226:10;206:30;;330:7;308:29;;60:280;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea2646970667358221220ccd1055a108fe18e02699b6f5de1402b09c81ba0c1b78c959d6efd4d0f00101564736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCC 0xD1 SDIV GAS LT DUP16 0xE1 DUP15 MUL PUSH10 0x9B6F5DE1402B09C81BA0 0xC1 0xB7 DUP13 SWAP6 SWAP14 PUSH15 0xFD4D0F00101564736F6C6343000807 STOP CALLER ",
+			"sourceMap": "60:280:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "44278",
+				"totalCost": "56878"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
